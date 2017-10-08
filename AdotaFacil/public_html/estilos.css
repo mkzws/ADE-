@@ -1,0 +1,278 @@
+body{
+    background-color: #d7dee0;
+    font-family: 'Muli', 'Georgia', sans-serif;
+    float:left;
+    margin:0;
+    height: 100%;
+    width: 100%;
+}
+
+html{
+    height: 100%;
+}
+
+#tudo{
+    width:100%;
+    float:left;
+    height: 100%;
+    text-decoration: none;
+}
+
+#nome {
+    width: 100%;
+    color: #fff;
+    float: left;
+    background-color: #000;
+    font-family: 'Space Mono', monospace;
+    font-size: 65px;
+    opacity: 0.7;
+}
+
+#logo{
+    width:40%;
+    float:left;
+    margin-left:1%;
+}
+
+#logo a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#canto{
+    font-size: 18px;
+    float: left;
+    margin-left: 46%;
+    margin-right:1%;
+    margin-top:1%;
+    color: #fff;
+}
+
+#canto a{
+    text-decoration:none;
+    color: #FFF;
+    font-family: 'Muli', 'Georgia', sans-serif;
+}
+
+#canto a:hover {
+    color: #F0B042;
+    text-decoration: none;
+}
+
+#carrinho img{
+    height:1%;
+    float:left;
+    margin-right:1%;
+    margin-bottom:1%;
+    margin-left:53%;
+}
+
+#menu{
+    width: 100%;
+    color: #fff;
+    float: left;
+    background-color: #404343;
+    border-top: #fff solid 1px;
+    border-bottom: #fff solid 1px;
+    font-size: 18px;
+}
+
+#menu #item{
+    width: 20%;
+    float: left;
+    text-align: center;
+    height: 30px;
+    padding-top: 15px;
+}
+
+#menu #item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu #item a:hover {
+    color: #F0B042;
+    text-decoration: none;
+}
+
+#cont1{
+    padding: 2%;
+    float: left;
+    width: 45%;
+    text-align:justify;	
+    margin:0 2% 0 2%;
+}
+
+#cont2{
+    padding:2%;
+    float:left;
+    width:35%;
+    text-align:justify; 
+    margin: 0 2% 0 2%;
+}
+
+#cont3{
+    margin: 2% 5% 2% 5%; 
+    text-align:justify; 
+    width:90%;
+    float:left;
+}
+
+#cont4{
+    margin-left: 6%;
+    text-align:justify; 
+    width:90%;
+    float:left;
+}
+
+cont5 img{
+    padding: 2%;
+    float: left;
+    margin:0 2% 0 2%;
+}
+
+#cont5{
+    padding:2%;
+    float:left;
+    width:40%;
+    text-align:justify; 
+    margin:0;
+    margin-left: 3%;
+}
+
+#cont6{
+    padding:2%;
+    float:left;
+    width:45%;
+    text-align:justify; 
+    margin-right: 3%;
+}
+
+h3{
+    font-size:25px;
+}
+
+form{
+    width: 80%;
+    font-family: 'Muli', 'Georgia', sans-serif;
+    font-size:18px;
+    float: left;
+    margin: 2% 15% 2% 15%;
+}
+
+label {
+    display: inline-block;
+    width: 13%;
+    text-align: left;
+    float: left;
+}
+
+input, textarea {
+    float:left;
+    font-size:18px;
+    height:5%;
+    width:70%;
+    font-family: 'Muli', 'Georgia', sans-serif;
+    margin-left: 5%;
+}	
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+textarea{
+    margin-bottom: 1%;
+}
+
+
+.botao{
+    -moz-box-shadow: 0px 10px 14px -7px #606060;
+    -webkit-box-shadow: 0px 10px 14px -7px #606060;
+    box-shadow: 0px 10px 14px -7px #606060;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #EFCC40), color-stop(1, #F0B042));
+    background:-moz-linear-gradient(top, #EFCC40 5%, #F0B042 100%);
+    background:-webkit-linear-gradient(top, #EFCC40 5%, #F0B042 100%);
+    background:-o-linear-gradient(top, #EFCC40 5%, #F0B042 100%);
+    background:-ms-linear-gradient(top, #EFCC40 5%, #F0B042 100%);
+    background:linear-gradient(to bottom, #EFCC40 5%, #F0B042 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#EFCC40', endColorstr='#F0B042',GradientType=0);
+    background-color:#EFCC40;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    border-radius:7px;
+    border:#F0B042 1px solid ;
+    display:inline-block;
+    color:#000;
+    font-size:13px;
+    padding:6px 12px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ccc;
+    font-family: 'Muli', 'Georgia', sans-serif;
+}	
+
+.botao:hover{
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #F0B042), color-stop(1, #EFCC40));
+    background:-moz-linear-gradient(top, #F0B042 5%, #EFCC40 100%);
+    background:-webkit-linear-gradient(top, #F0B042 5%, #EFCC40 100%);
+    background:-o-linear-gradient(top, #F0B042 5%, #EFCC40 100%);
+    background:-ms-linear-gradient(top, #F0B042 5%, #EFCC40 100%);
+    background:linear-gradient(to bottom, #F0B042 5%, #EFCC40 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0B042', endColorstr='#EFCC40',GradientType=0);
+    background-color:#F0B042;
+    font-family: 'Muli', 'Georgia', sans-serif;
+}
+
+.submit {
+    margin-top: 10%;
+    margin-left: 55%;
+}
+
+.comprar{
+    margin-top: 16%;
+    margin-bottom: 15%;
+    float: right;
+    width: 30%;
+}
+
+.detalhe{
+    margin-top: 16%;
+    margin-bottom: 15%;
+    float:left;
+    width: 30%;
+}
+
+
+.footer {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color: #404343;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    height: 22px;
+    padding: 8px 0;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+#card{
+    width: 30%;
+    float:left;
+    margin: 1%;
+}
+
